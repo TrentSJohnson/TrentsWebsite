@@ -41,9 +41,5 @@ module.exports = {
         },
       },
       `gatsby-plugin-sharp`,
-<<<<<<< HEAD
-=======
-    
->>>>>>> be9fc3f85c1ba1b44d9d2188d44d6b7e2121b95a
   ],
 }
