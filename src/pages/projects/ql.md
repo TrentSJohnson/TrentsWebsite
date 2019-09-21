@@ -1,6 +1,6 @@
 ---
 title: "Q-Learning!"
-date: "2019-12-4"
+date: "2018-12-4"
 categories: ["project"]
 span: ""
 ---

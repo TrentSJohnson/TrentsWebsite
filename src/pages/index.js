@@ -65,7 +65,7 @@ export const query = graphql`
 				}
 			}
 		}
-		projectElements: allMarkdownRemark(filter: {frontmatter: {categories: {in: "project"}}}) {
+		projectElements: allMarkdownRemark(filter: {frontmatter: {categories: {in: "project"}}}, sort: {fields: frontmatter___date, order: DESC}) {
 			edges {
 				node {
 					fields {
@@ -81,7 +81,7 @@ export const query = graphql`
 				}
 			}
 		}
-		blogElements: allMarkdownRemark(filter: {frontmatter: {categories: {in: "blog"}}}) {
+		blogElements: allMarkdownRemark(filter: {frontmatter: {categories: {in: "blog"}}}, sort: {fields: frontmatter___date, order: DESC}) {
 			edges {
 				node {
 					fields {
