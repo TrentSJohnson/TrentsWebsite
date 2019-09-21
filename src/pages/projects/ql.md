@@ -1,6 +1,6 @@
 ---
-title: "Lights Out!"
-date: "2019-01-12"
+title: "Q-Learning!"
+date: "2019-12-4"
 categories: ["project"]
 span: ""
 ---

@@ -18,15 +18,15 @@ export default props => {	return (
 
         `}
       >
-        <span class="highlight"
+        <span 
           css={css`
           text-decoration: underline;
         `}>
           {props.title}{" "}
         </span>
-        <span class="highlight"
+        <span 
           css={css`
-            color: #bbb;
+            color: grey;
           `}
         >
           — {props.span}
@@ -34,7 +34,7 @@ export default props => {	return (
             
         </span>
       </h3>
-      <p class="highlight"
+      <p 
           css={css`
             color: black
           `}>
