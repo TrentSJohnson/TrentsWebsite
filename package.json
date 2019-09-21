@@ -1,7 +1,7 @@
 {
-  "name": "Trents Website",
+  "name": "TrentsWebsite",
   "private": true,
-  "description": "Trents Website",
+  "description": "TrentsWebsite",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
