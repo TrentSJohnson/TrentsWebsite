@@ -2,7 +2,6 @@
 title: "How Extreme is Your Senator?"
 date: "2019-02-12"
 categories: ["project"]
-span: ""
 ---
 In this project, I used linear algebra concepts to analyze how polarized US Senators in the 109th Congress. To do this, we can look at the voting record and compare how similar Senators are by using dot products. A dot product is a type of multiplication of vectors that outputs a number that correlates to how similar the vectors. To compute a dot product, we use the example of the two vectors [1, 2, 0] and [-1, 3, 4]. First, multiply each corresponding number in each vector; then, we sum the results. So the dot product of [1, 2, 0] and [-1, 3 ,4] is 1*-1+2*3+0*4=5. If we look at voting records for Senator Johnson and Senator Akaka, for a series of 4 votes Akaka voted yes, no, no, and yes, and Johnson voted yes, yes, no, and yes. We can write these votes as two vectors with 4 dimensions. If we say 1 means yes and -1 means no, our vectors would be [1,-1,-1,1] for Akaka and [1,1,-1,1] for Johnson. The dot product of these would be 2 which means they are fairly similar. This makes sense since they only disagree by a single vote. On the other hand, if we look at Senator Warner and Senator Snow, Warner voted yes, yes, no, and no and Snow voted for no, no, yes, yes. To compare them we would take the dot product of [1, 1, -1, -1] and [-1, -1, 1, 1] and get -4. This is a highly negative number, so these senators are very dissimilar. Furthermore, we can take the average votes of a group of senators, such as a party and compare them to individual Senators. 
 

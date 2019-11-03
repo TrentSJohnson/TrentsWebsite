@@ -2,7 +2,6 @@
 title: "Q-Learning!"
 date: "2018-12-4"
 categories: ["project"]
-span: ""
 ---
 Normally, after one makes his or her first few simple neural networks, they progress to convolution neural networks, but reinforcement learning was too fascinating for me to pass up on. However, I quickly learned that people did this because deep Q-learning is especially difficult. For this project, I did not achieve actual deep Q-Learning (DQN), but I plan on achieving it soon. Deep Q-Learning means that a network is intakes a state and outputs the Q-values defined by the Bellman equation for each action. In this project, I achieved Q-learning and a neural network that tried to memorize the Q-table. By the end of the school year, I plan to have a deep version running, but early on, I wanted to simply experiment with the process. 
 

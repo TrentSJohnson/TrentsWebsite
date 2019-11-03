@@ -2,7 +2,6 @@
 title: "It GAN do it! (Generative Adversarial Networks)"
 date: "2019-03-27"
 categories: ["project"]
-span: ""
 ---
 One of the biggest challenges of deep learning is figuring out how to use artificial intelligence to generate data like picture, video, text, and sound. In 2010, Ian Goodfellow published a paper popularizing a technique knowing as generative adversarial networks (GAN). To explain how it works, we can think of the technique as 2 people, a forger and an art detective, competing against each other. The forger will try to created forged paintings, and the detective will try to spot the fakes. As the detective spots more and more fakes, she will get better at finding the forged works. Likewise, as the forger sees how the detective is spotting his fake, he will get better and better at making the forgeries. This will go back and forth until us normal humans won't be able to tell the difference between the reals and fakes. 
 

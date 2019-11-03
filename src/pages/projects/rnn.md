@@ -2,7 +2,6 @@
 title: "RNNs, Char-nns, and Karpathy-NNs Oh My!"
 date: "2019-03-22"
 categories: ["project"]
-span: ""
 ---
 
 Recently, I learned of a famous recurrent neural network build by Andrew Karpathy and the lighter Python version I can run on my laptop. It is a char-nn, meaning that it can generate text by generating one character at a time. This means it would write "H" "E" "L" "L" "O" letter by letter rather than the whole word "HELLO" at once This network and the corresponding article shows up in many papers and has even been cited by Google in their research.  Since it was all open source, I decided I should give it a shot.

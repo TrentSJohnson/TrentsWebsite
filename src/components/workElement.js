@@ -3,7 +3,7 @@ import { css } from "@emotion/core"
 import { Link } from "gatsby"
 
 import { rhythm } from "../utils/typography"
-export default props => {	return (
+export default props => { return (
   <div class="highlight" key={props.id}>
     <Link 
       to={props.slug}
@@ -29,7 +29,7 @@ export default props => {	return (
             color: green;
           `}
         >
-          — {props.date}
+          — {props.span}
             
         </span>
       </h3>

@@ -1,6 +1,5 @@
 ---
 title: "Kids4Coding"
-date: ""
 span: "Summers of 2018 and 2019"
 categories: ["work"]
 ---

@@ -2,7 +2,6 @@
 title: "RL in RL (Reinforcement Learning in Real Life)"
 date: "2019-04-10"
 categories: ["blog"]
-span: ""
 ---
 
 From self driving cars, Space Invaders, and the game Go, reinforcement learning (RL) is how deep learning tackles the complex problems. In its most general case, reinforcement learning is any time an agent (usually a neural network), navigates an environment that it has some influence over and has rewards. Lets break the environment into parts. An environment is anything that has states like the game screen of an Atari game or the the x y coordinates of a agent in a maze. Furthermore, an agent having influence just means it can make actions that effect the environment, moving a set forward in a maze or steering a car are both examples of this. The rewards are a critical part of an agents learning and tell an agent whether it is doing good or bad. For example, if an agent is navigating a maze, it will receive an positive award if it reaches the finish line, but if it walks into a pit of fire, it will receive a negative award. These fundamentals is what makes RL learning function.

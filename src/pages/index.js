@@ -2,27 +2,28 @@ import React from "react"
 import Layout from "../components/layout"
 import ResumeElement from "../components/resumeElement"
 import SectionTitle from "../components/sectionTitle"
+import WorkElement from "../components/workElement"
+//import Fade from "../components/fade2"
 export default ({ data }) => {
   return (
+	  
     <Layout>
       <div>
 				<SectionTitle headerText="Past Experience"/>
 				{data.workElements.edges.map(({ node }) => (
-					<ResumeElement class="highlight"
+					<WorkElement
 						id={node.id}
 						slug={node.fields.slug}
-						date={node.frontmatter.date}
 						excerpt={node.excerpt}
 						title={node.frontmatter.title}
 						span={node.frontmatter.span}
 						>
-					</ResumeElement>
+					</WorkElement>
 				))}
-				<SectionTitle headerText="Past Projects" class = "highlight"/>
+				<SectionTitle headerText="Past Projects"/>
 				{data.projectElements.edges.map(({ node }) => (
 					<ResumeElement 
 						id={node.id}
-						slug={node.fields.slug}
 						date={node.frontmatter.date}
 						excerpt={node.excerpt}
 						title={node.frontmatter.title}
@@ -30,11 +31,10 @@ export default ({ data }) => {
 						>
 					</ResumeElement>
 				))}
-				<SectionTitle headerText="Blog" class = "highlight"/>
+				<SectionTitle headerText="Blog"/>
 				{data.blogElements.edges.map(({ node }) => (
 					<ResumeElement 
 						id={node.id}
-						slug={node.fields.slug}
 						date={node.frontmatter.date}
 						excerpt={node.excerpt}
 						title={node.frontmatter.title}
@@ -57,7 +57,6 @@ export const query = graphql`
 					}
 					excerpt
 					frontmatter {
-						date
 						title
 						span
 					}
@@ -75,7 +74,6 @@ export const query = graphql`
 					frontmatter {
 						date
 						title
-						span
 					}
 					id
 				}
@@ -91,7 +89,6 @@ export const query = graphql`
 					frontmatter {
 						date
 						title
-						span
 					}
 					id
 				}

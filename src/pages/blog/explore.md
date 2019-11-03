@@ -2,7 +2,6 @@
 title: "Exploration vs Exploitation"
 date: "2019-2-24"
 categories: ["blog"]
-span: ""
 ---
 Exploitation versus exploration is an extremely common and difficult problem in artificial intelligence. However, this problem is not limits just to AI. It can be generalized to anything from college applications, governments, and your dinner. To explain how it works, let us consider the agent. An agent can be thought of as a thing that can move, has goals, and can take actions to achieve its goal. For example, when you are at a restaurant and want something good to eat for dinner, you are an agent. You can make choices, what you order to eat, and you have a goal, get a delicious meal. Now you have a choice. You can either try a new item on the menu, explore, or choose your favorite meal, exploit. If you just exploit and never try something new, you may miss out on years of enjoying a far tastier meal, but if you always try something new, you could be eating terrible meals instead of ones you know you like. So which should you do? 
 

@@ -1,7 +1,7 @@
 import React from "react"
 import { css } from "@emotion/core"
 import { useStaticQuery, Link, graphql } from "gatsby"
-
+import Typing from "react-typing-animation"
 import { rhythm } from "../utils/typography"
 export default ({ children }) => {
   const data = useStaticQuery(
@@ -22,6 +22,7 @@ export default ({ children }) => {
         max-width: 700px;
         padding: ${rhythm(2)};
         padding-top: ${rhythm(1.5)};
+        color: green;
       `}
     >
       <Link to={`/`} 
@@ -32,16 +33,19 @@ export default ({ children }) => {
             display: inline-block;
             font-style: normal;
             font-size: 300%;
+            color: grey;
           `}
         >
+          <Typing>
           {data.site.siteMetadata.title}
+          </Typing>
         </h3>
       </Link>
       <Link
         to={`/about/`} 
         css={css`
           float: right;
-          color: black
+          color: green;
         `}
         
       >
