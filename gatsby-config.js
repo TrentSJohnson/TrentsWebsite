@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Trent Johnson`,
+    description: `A blog, projects, and resume for Trent Johnson`,
+    author: `Trent Johnson`,
   },
   plugins: [
       {
@@ -41,5 +43,6 @@ module.exports = {
         },
       },
       `gatsby-plugin-sharp`,
+      `gatsby-plugin-react-helmet`,
   ],
 }
