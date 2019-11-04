@@ -21,7 +21,7 @@ export default ({ children }) => {
     <>
       <Helmet>
         <title>{data.site.siteMetadata.title}</title>
-        <link rel="canonical" href="https://thecharlesjenkins.com/" />
+        <link rel="canonical" href="https://thetrentjohnson.com/" />
         <link rel="icon" href="favicon.ico" />
       </Helmet>
       <div

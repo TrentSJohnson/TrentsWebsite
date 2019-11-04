@@ -19,7 +19,5 @@ Once training was complete the network was performing remarkably well.
 ![GANfinal](./gan_final.png)
 
 As you can see, the generated numbers do closely resemble the data set and with a graphics card, I could run a larger network that could even replicate the data even further. However, I am very happy with my progress as the GAN learned to create realistic hand-drawn numbers. I plan on trying to generate faces once I upgrade my hardware. 
-<div style="margin-bottom: 0rem;">
 
-![GANgif](./gan.gif)
-</div>
+![GANgif](./GANgif2.gif)
