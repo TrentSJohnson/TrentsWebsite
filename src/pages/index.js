@@ -24,10 +24,10 @@ export default ({ data }) => {
 				{data.projectElements.edges.map(({ node }) => (
 					<ResumeElement 
 						id={node.id}
+						slug={node.fields.slug}
 						date={node.frontmatter.date}
 						excerpt={node.excerpt}
 						title={node.frontmatter.title}
-						span={node.frontmatter.span}
 						>
 					</ResumeElement>
 				))}
@@ -35,10 +35,10 @@ export default ({ data }) => {
 				{data.blogElements.edges.map(({ node }) => (
 					<ResumeElement 
 						id={node.id}
+						slug={node.fields.slug}
 						date={node.frontmatter.date}
 						excerpt={node.excerpt}
 						title={node.frontmatter.title}
-						span={node.frontmatter.span}
 						>
 					</ResumeElement>
 				))}
